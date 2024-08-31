@@ -22,8 +22,8 @@ const Manage = () => {
             posts: 'Buku Yasin, Memo, Stiker, Faktur, Surat Jalan',
             templates: "Desain Undangan dan Stempel",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan',
+            category: 'monthly'
         },
         {
             heading: "Baner",
@@ -34,8 +34,8 @@ const Manage = () => {
             posts: 'Vandel, Shopping Bag, Nama Dada, Cutting Stiker',
             templates: "Desain Spanduk dan Baner",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan ',
+            category: 'monthly'
         },
         {
             heading: "Plat Nomer Motor",
@@ -46,8 +46,8 @@ const Manage = () => {
             posts: 'Company Profile, Kartu Nama, Plat Nomer',
             templates: "Desain Neon Box dan Plakat",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan ',
+            category: 'monthly'
         },
         {
             heading: "Plat Nomer Motor + Tempat",
@@ -58,8 +58,8 @@ const Manage = () => {
             posts: 'Company Profile, Kartu Nama, Plat Nomer',
             templates: "Desain Neon Box dan Plakat",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan',
+            category: 'monthly'
         },
         {
             heading: "Plat Nomer Motor (Baut Tanam)",
@@ -70,8 +70,8 @@ const Manage = () => {
             posts: 'Company Profile, Kartu Nama, Plat Nomer',
             templates: "Desain Neon Box dan Plakat",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan ',
+            category: 'monthly'
         },
         {
             heading: "Plat Nomer Mobil",
@@ -82,8 +82,8 @@ const Manage = () => {
             posts: 'Company Profile, Kartu Nama, Plat Mobil',
             templates: "Desain Neon Box dan Plakat",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
-            category: 'yearly'
+            support: 'Dukungan Pelanggan',
+            category: 'monthly'
         },
         {
             heading: "Tinta Isi Ulang Stempel Fles 5cc",
@@ -94,8 +94,8 @@ const Manage = () => {
             posts: 'Tinta Isi Ulang Stempel',
             templates: "Desain Stempel",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan 24/7',
-            category: 'monthly'
+            support: 'Dukungan Pelanggan',
+            category: 'yearly'
         },
         {
             heading: "Buku Yasin",
@@ -106,7 +106,7 @@ const Manage = () => {
             posts: 'Buku Yasin Percetakan',
             templates: "Desain Buku Yasin",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
+            support: 'Dukungan Pelanggan',
             category: 'monthly'
         },
         {
@@ -118,9 +118,83 @@ const Manage = () => {
             posts: 'Tinta Isi Ulang Stempel',
             templates: "Desain Stempel",
             view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan VIP 24/7',
-            category: 'monthly'
+            support: 'Dukungan Pelanggan',
+            category: 'yearly'
         },
+        // Item Baru
+        {
+            heading: "Kepala Gagang Stempel Kayu",
+            price: 3000,
+            user: 'per pcs',
+            button: "Pesan Sekarang",
+            profiles: 'Gagang Stempel',
+            posts: 'Gagang Stempel Kayu',
+            templates: "Desain Gagang Stempel",
+            view: "Layanan Percetakan",
+            support: 'Dukungan Pelanggan',
+            category: 'yearly'
+        },
+        {
+            heading: "Gagang Stempel Flas Bulat",
+            price: 10000,
+            user: 'per pcs',
+            button: "Pesan Sekarang",
+            profiles: 'Gagang Stempel',
+            posts: 'Gagang Stempel Flas Bulat 4,0',
+            templates: "Desain Gagang Stempel",
+            view: "Layanan Percetakan",
+            support: 'Dukungan Pelanggan 24/7',
+            category: 'yearly'
+        },
+        {
+            heading: "Karet Stempel Flas",
+            price: 80000,
+            user: 'per lembar',
+            button: "Pesan Sekarang",
+            profiles: 'Karet Stempel',
+            posts: 'Karet Stempel Flas',
+            templates: "Desain Karet Stempel",
+            view: "Layanan Percetakan",
+            support: 'Dukungan Pelanggan 24/7',
+            category: 'yearly'
+        },
+        {
+            heading: "Karet Stempel Runaflek",
+            price: 70000,
+            user: 'per lembar',
+            button: "Pesan Sekarang",
+            profiles: 'Karet Stempel',
+            posts: 'Karet Stempel Runaflek',
+            templates: "Desain Karet Stempel",
+            view: "Layanan Percetakan",
+            support: 'Dukungan Pelanggan',
+            category: 'yearly'
+        },
+        {
+            "heading": "Undangan",
+            "price": 2500,
+            "user": "per pcs",
+            "button": "Pesan Sekarang",
+            "profiles": "Undangan",
+            "posts": "Undangan",
+            "templates": "Desain Undangan",
+            "view": "Layanan Percetakan",
+            "support": "Dukungan Pelanggan",
+            "category": "monthly"
+        },
+        {
+            "heading": "Gagang Stempel Flas 22x55",
+            "price": 10000,
+            "user": "per pcs",
+            "button": "Pesan Sekarang",
+            "profiles": "Gagang Stempel",
+            "posts": "Gagang Stempel Flas 22x55",
+            "templates": "Desain Gagang Stempel",
+            "view": "Layanan Percetakan",
+            "support": "Dukungan Pelanggan",
+            "category": "monthly"
+        }
+        
     ];
 
     const filteredData = services.filter(items => items.category === selectedCategory);
