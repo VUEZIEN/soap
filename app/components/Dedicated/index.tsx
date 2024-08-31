@@ -36,7 +36,7 @@ const Dedicated = () => {
                             Kami berkomitmen untuk menyediakan solusi desain yang sesuai dengan kebutuhan Anda, dengan pelayanan dan kualitas terbaik.
                         </p>
                         <p className="text-2xl font-semibold mt-12 lg:ml-0 text-center lg:text-start">
-                            nama orang, Pemilik Percetakan
+                            Mardi Joni, Pemilik Percetakan
                         </p>
                     </div>
 
