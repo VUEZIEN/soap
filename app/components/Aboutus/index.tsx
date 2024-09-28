@@ -11,21 +11,21 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        heading: "Produk Cetak",
-        imgSrc: "/images/aboutus/imgOne.svg",
-        paragraph: 'Undagan, Stempel, Nota, Kop Surat, Buku Yasin, Memo, Stiker, Faktur, Surat Jalan, Spanduk, Banner, Plang, Plastik, Plakat, Vandel, Shopping Bag, N. Dada, Cutting Stiker, N. Piala, Bendera, Umbul-Umbul, Neon Box, Map, Brosur, ID Card, Piagam, Company Profile, Kartu Nama, Plat Nomor, dan Batu Nisan.',
+        heading: "KILAU SEGAR 450ml",
+        imgSrc: "/images/aboutus/imgOne.svg", // Replace with relevant image path
+        paragraph: 'Sabun cuci piring KILAU SEGAR memberikan kebersihan maksimal dengan aroma segar jeruk nipis. Mengandung texapon, sodium sulfat, dan citrun untuk membersihkan lemak dengan cepat tanpa merusak tangan.',
         link: 'Pelajari Lagi'
     },
     {
-        heading: "Desain Grafis",
-        imgSrc: "/images/aboutus/imgTwo.svg",
-        paragraph: 'Kami menyediakan layanan desain grafis untuk berbagai kebutuhan, termasuk logo, brosur, banner, dan materi promosi lainnya. Tim desain kami berkomitmen untuk menghasilkan karya yang kreatif dan sesuai dengan visi Anda.',
+        heading: "Aroma Segar",
+        imgSrc: "/images/aboutus/imgTwo.svg", // Replace with relevant image path
+        paragraph: 'Diformulasikan dengan aroma jeruk nipis alami yang memberikan kesegaran pada setiap cucian piring. Menjadikan dapur lebih wangi dan nyaman.',
         link: 'Pelajari Lagi'
     },
     {
-        heading: "Layanan Kunci",
-        imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Kami juga menawarkan layanan pembuatan kunci dan duplikat. Dengan menggunakan teknologi terbaru, kami menjamin kualitas dan ketahanan kunci yang kami buat.',
+        heading: "Hemat dan Efisien",
+        imgSrc: "/images/aboutus/imgThree.svg", // Replace with relevant image path
+        paragraph: 'Dengan KILAU SEGAR, Anda hanya memerlukan sedikit cairan untuk membersihkan banyak piring. Efisien untuk penggunaan sehari-hari dan sangat hemat.',
         link: 'Pelajari Lagi'
     },
 ]
@@ -40,7 +40,7 @@ const Aboutus = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>
-                            <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>{item.heading}</h4>
+                            <h4 className='text-4xl font-semibold text-black mb-5 group-hover:text-white'>{item.heading}</h4>
                             <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" />
                             <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>{item.paragraph}</h4>
                             <Link href="#" className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>

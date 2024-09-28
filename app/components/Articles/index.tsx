@@ -15,57 +15,43 @@ interface DataType {
     name: string;
 }
 
+// DATA CAROUSEL
+
 const postData: DataType[] = [
     {
         time: "5 menit",
-        heading: 'Kenyamanan Terbaik',
-        heading2: 'Dalam Produk',
-        name: "INSAN SABLON",
-        date: ' 2024',
+        heading: 'Bersih Maksimal',
+        heading2: 'Dengan Sabun Cuci Piring 450ml',
+        name: "KILAU SEGAR",
+        date: '2024',
         imgSrc: '/images/articles/article.png',
     },
     {
         time: "5 menit",
-        heading: 'Cepat',
-        heading2: 'Dalam mengerjakan apapun',
-        name: "INSAN SABLON",
+        heading: 'Lembut di Tangan',
+        heading2: 'Efektif Menghilangkan Lemak',
+        name: "KILAU SEGAR",
         date: '2024',
         imgSrc: '/images/articles/article2.png',
     },
     {
         time: "5 menit",
-        heading: 'Puas ',
-        heading2: 'Dalam layanan kami',
-        name: "INSAN SABLON",
+        heading: 'Hemat dan Efisien',
+        heading2: 'Satu Tetes untuk Banyak Piring',
+        name: "KILAU SEGAR",
         date: '2024',
         imgSrc: '/images/articles/article3.png',
     },
     {
         time: "5 menit",
-        heading: 'Kenyamanan Terbaik',
-        heading2: 'Dalam Produk',
-        name: "INSAN SABLON",
-        date: ' 2024',
+        heading: 'Wangi Segar',
+        heading2: 'Mengharumkan Dapur',
+        name: "KILAU SEGAR",
+        date: '2024',
         imgSrc: '/images/articles/article.png',
-    },
-    {
-        time: "5 menit",
-        heading: 'Cepat',
-        heading2: 'Dalam mengerjakan apapun',
-        name: "INSAN SABLON",
-        date: '2024',
-        imgSrc: '/images/articles/article2.png',
-    },
-    {
-        time: "5 menit",
-        heading: 'Puas ',
-        heading2: 'Dalam layanan kami',
-        name: "INSAN SABLON",
-        date: '2024',
-        imgSrc: '/images/articles/article3.png',
-    },
+    }
+];
 
-]
 
 // PENGATURAN CAROUSEL
 

@@ -14,187 +14,41 @@ const Manage = () => {
 
     const services = [
         {
-            heading: "Stempel Otomatis",
-            price: 50000,
-            user: 'per layanan, per pesanan',
-            button: "Pesan Sekarang",
-            profiles: 'Undangan, Stempel, Nota, Kop Surat',
-            posts: 'Buku Yasin, Memo, Stiker, Faktur, Surat Jalan',
-            templates: "Desain Undangan dan Stempel",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'monthly'
-        },
-        {
-            heading: "Baner",
-            price: 35000,
-            user: 'Per Meter',
-            button: "Pesan Sekarang",
-            profiles: 'Spanduk, Baner, Plang, Plastik, Plakat',
-            posts: 'Vandel, Shopping Bag, Nama Dada, Cutting Stiker',
-            templates: "Desain Spanduk dan Baner",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan ',
-            category: 'monthly'
-        },
-        {
-            heading: "Plat Nomer Motor",
-            price: 50000,
-            user: 'Ukuran standar',
-            button: "Pesan Sekarang",
-            profiles: 'Neon Box, Map, Brosur Separasi, ID Card, Piagam',
-            posts: 'Company Profile, Kartu Nama, Plat Nomer',
-            templates: "Desain Neon Box dan Plakat",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan ',
-            category: 'monthly'
-        },
-        {
-            heading: "Plat Nomer Motor + Tempat",
-            price: 80000,
-            user: 'Ukuran standar + Tempat',
-            button: "Pesan Sekarang",
-            profiles: 'Neon Box, Map, Brosur Separasi, ID Card, Piagam',
-            posts: 'Company Profile, Kartu Nama, Plat Nomer',
-            templates: "Desain Neon Box dan Plakat",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'monthly'
-        },
-        {
-            heading: "Plat Nomer Motor (Baut Tanam)",
-            price: 120000,
-            user: 'Ukuran standar dengan Baut Tanam',
-            button: "Pesan Sekarang",
-            profiles: 'Neon Box, Map, Brosur Separasi, ID Card, Piagam',
-            posts: 'Company Profile, Kartu Nama, Plat Nomer',
-            templates: "Desain Neon Box dan Plakat",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan ',
-            category: 'monthly'
-        },
-        {
-            heading: "Plat Nomer Mobil",
-            price: 100000,
-            user: 'Ukuran standar',
-            button: "Pesan Sekarang",
-            profiles: 'Neon Box, Map, Brosur Separasi, ID Card, Piagam',
-            posts: 'Company Profile, Kartu Nama, Plat Mobil',
-            templates: "Desain Neon Box dan Plakat",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'monthly'
-        },
-        {
-            heading: "Tinta Isi Ulang Stempel Fles 5cc",
-            price: 15000,
-            user: 'Ukuran 5cc',
-            button: "Pesan Sekarang",
-            profiles: 'Tinta Stempel, Isi Ulang',
-            posts: 'Tinta Isi Ulang Stempel',
-            templates: "Desain Stempel",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'yearly'
-        },
-        {
-            heading: "Buku Yasin",
-            price: 15000,
-            user: 'Minimal 100 buku',
-            button: "Pesan Sekarang",
-            profiles: 'Buku Yasin',
-            posts: 'Buku Yasin Percetakan',
-            templates: "Desain Buku Yasin",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'monthly'
-        },
-        {
-            heading: "Tinta 1 Botol 100cc",
-            price: 100000,
-            user: 'Ukuran 100cc',
-            button: "Pesan Sekarang",
-            profiles: 'Tinta Stempel, Isi Ulang',
-            posts: 'Tinta Isi Ulang Stempel',
-            templates: "Desain Stempel",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'yearly'
-        },
-        // Item Baru
-        {
-            heading: "Kepala Gagang Stempel Kayu",
-            price: 3000,
-            user: 'per pcs',
-            button: "Pesan Sekarang",
-            profiles: 'Gagang Stempel',
-            posts: 'Gagang Stempel Kayu',
-            templates: "Desain Gagang Stempel",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'yearly'
-        },
-        {
-            heading: "Gagang Stempel Flas Bulat",
+            heading: "KILAU SEGAR 450ml",
             price: 10000,
-            user: 'per pcs',
+            user: 'Per botol',
+            button: "Beli Sekarang",
+            profiles: 'Lembut di Tangan',
+            posts: 'Aroma Jeruk Nipis',
+            templates: "Kemasan Praktis",
+            view: "Membersihkan dengan Efektif",
+            support: 'Dukungan Pelanggan 24/7',
+            category: 'monthly'
+        },
+        {
+            heading: "Paket Grosir KILAU SEGAR",
+            price: 100000,
+            user: '10 botol per paket',
             button: "Pesan Sekarang",
-            profiles: 'Gagang Stempel',
-            posts: 'Gagang Stempel Flas Bulat 4,0',
-            templates: "Desain Gagang Stempel",
-            view: "Layanan Percetakan",
+            profiles: 'Harga Spesial Grosir',
+            posts: 'Aroma Jeruk Nipis',
+            templates: "Kemasan Praktis",
+            view: "Pembersihan Maksimal",
             support: 'Dukungan Pelanggan 24/7',
             category: 'yearly'
         },
         {
-            heading: "Karet Stempel Flas",
-            price: 80000,
-            user: 'per lembar',
-            button: "Pesan Sekarang",
-            profiles: 'Karet Stempel',
-            posts: 'Karet Stempel Flas',
-            templates: "Desain Karet Stempel",
-            view: "Layanan Percetakan",
+            heading: "KILAU SEGAR - Isi Ulang",
+            price: 8500,
+            user: 'Per refill pouch 450ml',
+            button: "Beli Sekarang",
+            profiles: 'Eco-friendly',
+            posts: 'Mengurangi Sampah Plastik',
+            templates: "Aroma Jeruk Nipis",
+            view: "Efektif untuk Peralatan Dapur",
             support: 'Dukungan Pelanggan 24/7',
-            category: 'yearly'
-        },
-        {
-            heading: "Karet Stempel Runaflek",
-            price: 70000,
-            user: 'per lembar',
-            button: "Pesan Sekarang",
-            profiles: 'Karet Stempel',
-            posts: 'Karet Stempel Runaflek',
-            templates: "Desain Karet Stempel",
-            view: "Layanan Percetakan",
-            support: 'Dukungan Pelanggan',
-            category: 'yearly'
-        },
-        {
-            "heading": "Undangan",
-            "price": 2500,
-            "user": "per pcs",
-            "button": "Pesan Sekarang",
-            "profiles": "Undangan",
-            "posts": "Undangan",
-            "templates": "Desain Undangan",
-            "view": "Layanan Percetakan",
-            "support": "Dukungan Pelanggan",
-            "category": "monthly"
-        },
-        {
-            "heading": "Gagang Stempel Flas 22x55",
-            "price": 10000,
-            "user": "per pcs",
-            "button": "Pesan Sekarang",
-            "profiles": "Gagang Stempel",
-            "posts": "Gagang Stempel Flas 22x55",
-            "templates": "Desain Gagang Stempel",
-            "view": "Layanan Percetakan",
-            "support": "Dukungan Pelanggan",
-            "category": "monthly"
+            category: 'monthly'
         }
-        
     ];
 
     const filteredData = services.filter(items => items.category === selectedCategory);
@@ -203,21 +57,21 @@ const Manage = () => {
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
                 <h3 className='text-center text-4xl sm:text-65xl font-black'>
-                    Kelola Semua Layanan Percetakan <br /> dan Sablon Anda dari Satu Tempat.
+                    Kelola Semua Produk Pembersih <br /> dari Satu Tempat.
                 </h3>
 
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="ikon-kanan" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Terpercaya</h4>
+                        <h4 className='text-lg font-semibold'>Teruji</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="ikon-kanan" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Cepat</h4>
+                        <h4 className='text-lg font-semibold'>Aman</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="ikon-kanan" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Layanan Tak Terbatas</h4>
+                        <h4 className='text-lg font-semibold'>Bersih Efektif</h4>
                     </div>
                 </div>
 
@@ -237,7 +91,7 @@ const Manage = () => {
                                 } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                             />
                         </Switch>
-                        <h3 className='text-sm font-medium ml-5'>Sedang Populer</h3>
+                        <h3 className='text-sm font-medium ml-5'>Paket Grosir</h3>
                     </div>
                 </div>
 

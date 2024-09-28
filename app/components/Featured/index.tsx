@@ -13,7 +13,7 @@ interface DataType {
 const postData: DataType[] = [
     {
         heading: 'Desain merek untuk merek komputer.',
-        imgSrc: '/images/featured/feat1.jpg',
+        imgSrc: '/images/featured/ray.jpg',
     },
     {
         heading: 'Wallpaper 3D aplikasi mobile.',
