@@ -102,7 +102,7 @@ const Manage = () => {
                             <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>Rp {items.price.toLocaleString('id-ID')}</h2>
                             <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p>
                             <button
-                                onClick={() => window.location.href = "https://wa.me/6281385415232"}
+                                onClick={() => window.location.href = "https://wa.me/6281292795278"}
                                 className='text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6'
                             >
                                 {items.button}

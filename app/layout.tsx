@@ -4,8 +4,8 @@ import Footer from './components/Footer/index';
 
 
 export const metadata = {
-  title: 'INSAN Adv',
-  description: 'Percetakan Dan Sablon',
+  title: 'KILAU SEGAR',
+  description: 'Sabun Cuci Piring',
 }
 
 export default function RootLayout({

@@ -43,10 +43,10 @@ const footer = () => {
                         <h3 className='text-white text-4xl font-semibold leading-9 mb-4 lg:mb-20'>KILAU SEGAR</h3>
                         <div className='flex gap-4'>
                             <div className='footer-icons'>
-                                <Link href="https://www.facebook.com/mardi.joni.5"><Image src={'/images/footer/vec.svg'} alt="facebook" width={15} height={20} /></Link>
+                                <Link href="https://web.facebook.com/profile.php?id=100051580637450"><Image src={'/images/footer/vec.svg'} alt="facebook" width={15} height={20} /></Link>
                             </div>
                             <div className='footer-icons'>
-                                <Link href="https://www.instagram.com/zizzz.dul_/?next=%2F"><Image src={'/images/footer/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                                <Link href="https://www.instagram.com/kilau.segar/"><Image src={'/images/footer/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const footer = () => {
                 <div className="pt-5 pb-5 px-4 sm:px-6 lg:px-4 border-solid border-t border-footer">
                     <div className="mt-4 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 xl:gap-x-8">
                         <div>
-                            <h3 className='text-center md:text-start text-offwhite text-lg'>@2024 - Hak Cipta oleh <Link href="https://wa.me/6281385415232" target="_blank">KILAU SEGAR</Link></h3>
+                            <h3 className='text-center md:text-start text-offwhite text-lg'>@2024 - Hak Cipta oleh <Link href="https://wa.me/6281292795278" target="_blank">KILAU SEGAR</Link></h3>
                         </div>
                         <div className="flex justify-center md:justify-end">
                             <Link href="/">

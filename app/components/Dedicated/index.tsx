@@ -9,10 +9,10 @@ const Dedicated = () => {
                     {/* COLUMN-1 */}
                     <div className="flex justify-center md:justify-start">
                         <Image 
-                            src="/images/dedicated/sabun-kilau-segar.png" 
+                            src="/images/dedicated/mq.png" 
                             alt="produk-KILAU-SEGAR" 
                             width={416} 
-                            height={530} 
+                            height={416} 
                             className="rounded-lg" /* Menambahkan border-radius pada gambar */
                         />
                     </div>

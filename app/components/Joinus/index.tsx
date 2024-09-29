@@ -7,7 +7,7 @@ const Join = () => {
     const handleJoinClick = () => {
         if (message) {
             const encodedMessage = encodeURIComponent(message);
-            const url = `https://wa.me/6281385415232?text=${encodedMessage}`;
+            const url = `https://wa.me/6281292795278?text=${encodedMessage}`;
             window.location.href = url; // Mengarahkan pengguna ke URL WhatsApp
         } else {
             alert('Silakan masukkan pesan Anda.');
@@ -18,9 +18,9 @@ const Join = () => {
         <div className="bg-joinus my-32">
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                 <div className="text-center">
-                    <h3 className="text-blue text-lg font-normal tracking-widest">Ayo..Bergabung Bersama Kami...!!!</h3>
-                    <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10"> Dalam membangun <br /> bisnis.</h2>
-                    <p className="text-lightblack text-base font-normal">kami mengadakan berbagai Kursus dalam Dunia  <br /> Precetakan dan Sablon</p>
+                    <h3 className="text-blue text-lg font-normal tracking-widest">Ayo... Bergabung dengan kami sekarang!</h3>
+                    <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10">Nikmati Kebersihan Bersama <br /> Sabun Cuci Piring Kilau Segar</h2>
+                    <p className="text-lightblack text-base font-normal">Kami memberikan solusi terbaik untuk kebersihan peralatan dapur <br /> dengan sabun cuci piring Kilau Segar yang ampuh membersihkan lemak dan kotoran.</p>
                 </div>
 
                 <div className="mx-auto max-w-4xl pt-5">

@@ -21,10 +21,10 @@ const postData: DataType[] = [
     {
         time: "5 menit",
         heading: 'Bersih Maksimal',
-        heading2: 'Dengan Sabun Cuci Piring 450ml',
+        heading2: 'Dengan Sabun Cuci Piring',
         name: "KILAU SEGAR",
         date: '2024',
-        imgSrc: '/images/articles/article.png',
+        imgSrc: '/images/articles/bersih.jpg',
     },
     {
         time: "5 menit",
@@ -32,7 +32,7 @@ const postData: DataType[] = [
         heading2: 'Efektif Menghilangkan Lemak',
         name: "KILAU SEGAR",
         date: '2024',
-        imgSrc: '/images/articles/article2.png',
+        imgSrc: '/images/articles/lembut.jpg',
     },
     {
         time: "5 menit",
@@ -40,7 +40,7 @@ const postData: DataType[] = [
         heading2: 'Satu Tetes untuk Banyak Piring',
         name: "KILAU SEGAR",
         date: '2024',
-        imgSrc: '/images/articles/article3.png',
+        imgSrc: '/images/articles/hemat.jpg',
     },
     {
         time: "5 menit",
@@ -48,7 +48,7 @@ const postData: DataType[] = [
         heading2: 'Mengharumkan Dapur',
         name: "KILAU SEGAR",
         date: '2024',
-        imgSrc: '/images/articles/article.png',
+        imgSrc: '/images/articles/jeruk.jpg',
     }
 ];
 

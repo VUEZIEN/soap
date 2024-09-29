@@ -11,7 +11,7 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        heading: "KILAU SEGAR 450ml",
+        heading: "KILAU SEGAR",
         imgSrc: "/images/aboutus/imgOne.svg", // Replace with relevant image path
         paragraph: 'Sabun cuci piring KILAU SEGAR memberikan kebersihan maksimal dengan aroma segar jeruk nipis. Mengandung texapon, sodium sulfat, dan citrun untuk membersihkan lemak dengan cepat tanpa merusak tangan.',
         link: 'Pelajari Lagi'
